@@ -1,87 +1,133 @@
+
 export const HeaderData = [
     {
         "name": "Home",
         "url": "/"
     },
     {
-        "name": "Pricing",
-        "url": "/Price"
+        "name": "Services",
+        "url": "services",
+        isScroll: true
     },
     {
-        "name": "Support",
-        "url": "/support"
+        "name": "WhyChooseUs?",
+        "url": "whyChooseUs",
+        isScroll: true
     },
     {
-        "name": "Apps",
-        "url": "/App"
+        "name": "Portfolio",
+        "url": "/portfolio"
     },
-    {
-        "name": "Blog",
-        "url": "/"
-    },
+   
 ]
-export const PlatformData = [
+
+export const WhyChooseUsData1 = [
     {
-        title: "Andriod",
-        link: "/",
-        img: "devicon_android.png"
-    }, {
-        title: "IOS",
-        link: "/App",
-        img: "ri_apple-fill.png"
-    }, {
-        title: "Macbook",
-        link: "/App",
-        img: "twemoji_laptop.png"
-    }, {
-        title: "Windows",
-        link: "/App",
-        img: "window.png"
-    },
-]
-export const OPTData = [
-    {
-        title: "High Speed Servers",
-        info: "Experience blazing-fast internet with Bard VPN's high-speed servers, ensuring smooth and seamless, and uninterrupted  online activities.",
-        icon: "speedometer.png"
+        title: "Innvotech business solution",
+        info: " Empowering Innovation through Technology Excellence. We specialize in delivering cutting-edge software solutions tailored to drive your business growth.",
+        icon: "knowledge.png"
     },
     {
-        title: "Military Grade Protection",
-        info: "We offer military-grade protection, safeguarding your online data with the same level of security trusted by armed forces worldwide",
-        icon: "security.png"
+        title: "Web application development",
+        info: "Building User-Friendly Websites and Apps. We create easy-to-use digital solutions that make your online presence shine and engage your audience.",
+        icon: "mobile-application.png"
     },
     {
-        title: "100% No Log Policy",
-        info: "Rest easy knowing that Bard VPN strictly adheres to a 100% no-log policy, ensuring your online activities remain private and confidential.",
-        icon: "policy.png"
-    },
-    {
-        title: "Multiple Servers",
-        info: "Enjoy the freedom to choose from a vast network of servers with Bard VPN for a personalised and secure browsing experience. ",
-        icon: "server.png"
+        title: "Managed service solution",
+        info:  "Your Hassle-Free IT Partner. We handle your IT infrastructure efficiently and securely, so you can focus on your core business, worry-free.",
+        icon: "control.png"
     },
     
+   
+    
+]
+export const WhyChooseUsData2 = [
+    {
+        title: "Expertise:",
+        info: "With a team of highly skilled software engineers, developers, and designers, we have the expertise to tackle complex projects and deliver solutions tailored to your unique needs.",
+        icon: "hands-on-experience.png"
+    },
+    {
+        title: "Client-Centric Approach:",
+        info: "We believe in building lasting partnerships with our clients. Your success is our success, and we work closely with you to understand your goals and challenges, ensuring our solutions align with your vision.",
+        icon: "centralized.png"
+    },
+    {
+        title: "Quality Assurance:",
+        info: "Our dedication to quality is unwavering. We rigorously test our software to ensure it meets the highest standards of performance, reliability, and scalability, providing exceptional results every time.",
+        icon: "quality-assurance.png"
+    },
+   
+]
+export const ServicesData = [
+    {
+        title: "Custom Software Development:",
+        info: "We specialize in developing tailor-made software solutionsto address your specific business needs.",
+        icon: "image1.png"
+    },
+    {
+        title: "Mobile & Web Application Development:",
+        info: "Reach your audience with our dynamic, user-friendly iOS and Android app development services.",
+        icon: "app-development (1).png"
+    },
+    {
+        title: "Cloud Solutions:",
+        info: "Harness the power of the cloud with our cloud computing services, providing scalability and flexibility for your business.",
+        icon: "cloud-idea.png"
+    },
+    {
+        title: "Mobile Design",
+        info: "Crafting User-Friendly Mobile Experiences. Our expert team ensures your applications are visually appealing, and optimized for seamless user interactions.",
+        icon: "ui-design.png"
+    },
+    {
+        title: "Branding Design",
+        info: "Shaping Your Brand's Identity. We create eye-catching logos, color schemes, and branding elements that make your business stand out and leave a memorable impression.",
+        icon: "image2.png"
+    },
+    {
+        title: "Graphic Design",
+        info: "Making Your Brand Pop! We create eye-catching logos, visuals, and designs that leave a lasting impression and elevate your brand's appeal.",
+        icon: "graphic-designer.png"
+    },
+    {
+        title: "Customer Support",
+        info: "We're here to help! Our friendly team is ready to assist you with any questions or concerns, ensuring you have a smooth experience with our services.",
+        icon: "image3.png"
+    },
+    {
+        title: "Custom Service",
+        info: "Tailored Solutions Just for You. We create unique, personalized solutions to meet your specific needs, making your business stand out.",
+        icon: "image4.png"
+    },
+    {
+        title: "Website Design",
+        info: "Making Beautiful, Easy-to-Use Websites. We create stunning websites that are simple to navigate and leave a lasting impression on your visitors.",
+        icon: "image5.png"
+    },
+    
+   
 ]
 export const questions = [
     {
-        question: "What is a VPN, and why do I need one?",
-        answer: "A VPN (Virtual Private Network) encrypts your online traffic, ensuring privacy and security. It's essential for protecting your data from hackers and accessing restricted content.",
+        question: "What services does Invvotech Systems offer?",
+        answer: "Invvotech Systems specializes in designing and developing websites, mobile apps, and providing comprehensive IT solutions tailored to your business needs.",
         
     },{
-        question: "How does Bard VPN work?",
-        answer: "Bard VPN creates an encrypted tunnel for your internet traffic, safeguarding your data. Additionally, our VPN routers extend this protection to all devices connected to your home network.",
+        question: "How long does it take to develop a website or app?",
+        answer: "The development timeline varies based on project complexity, but typically, a website can take 4-6 weeks, and a mobile app 8-12 weeks.",
     },{
-        question: "Can I use Bard VPN on multiple devices?",
-        answer: "Yes, you can secure numerous devices using one subscription, including smartphones, laptops, tablets, and even devices connected to our VPN router.",
+        question: "Do you provide post-launch support and maintenance?",
+        answer: "Yes, Invvotech Systems offers ongoing support and maintenance to ensure your website or app runs smoothly after launch.",
     },{
-        question: "How do I set up Bard VPN?",
-        answer: "Setting up Bard VPN is easy. Download our app for individual devices and follow the setup process.",
+        question: "Can you help with both iOS and Android app development?",
+        answer: "Absolutely, our team is proficient in developing high-quality apps for both iOS and Android platforms.",
     },{
-        question: "Can I use the 2-day free trial for both the VPN service and router?",
-        answer: "Yes, the 2-day free trial covers only our VPN service and not the router. Explore our features and benefits risk-free during this trial period.",
+        question: "What is your design process like?",
+        answer: "We follow a user-centric design process, starting with research and wireframing, followed by prototyping, design, and user testing to ensure optimal usability.",
     },{
-        question: "Will using Bard VPN slow down my internet connection?",
-        answer: "While all VPNs may slightly reduce speed due to encryption, Bard VPN and our VPN router are designed for minimal impact, providing optimal browsing and streaming experiences.",
+        question: "How do you ensure the security of the websites and apps you develop?",
+        answer: "Security is a top priority for us. We implement best practices in data encryption, secure coding, and regular security audits to protect your digital assets.",
     }
     
 ];
@@ -90,71 +136,52 @@ export const questions = [
 
 export const FooterData = [
     {
-        title: "Pages",
+        title: "Usefull Links",
         list: [
             {
                 name: "Home",
                 url: "/"
             },
             {
-                name: "Pricing",
-                url: "/Price"
+                name: "Portfolio",
+                url: "/portfolio"
             },
             {
                 name: "Contact Us",
-                url: "/support"
+                url: "contact",
+                isScroll: true
+            },
+            {
+                name: "Services",
+                url: "services",
+                isScroll: true
+            },
+            {
+                "name": "WhyChooseUs?",
+                "url": "whyChooseUs",
+                isScroll: true
             },
            
         ]
     },
     {
-        title: "Legal",
-        list: [
-            {
-                name: "Privacy Policy",
-                url: "/privacy-policy"
-            },
-            {
-                name: "Terms  Conditions",
-                url: "/terms"
-            },
-            {
-               
-                name: "Download",
-                url: "/App"
-            },
-        ]
+        title: "Company Overview",
+        discription:"Innvotech is a dynamic software development company dedicated to shaping the future through innovative tech solutions. With a passion for excellence, we transform ideas into robust software, driving success for businesses worldwide."
     },
     
 ]
-
-export const Packages = [
-    {
-        name: "1 month",
-        price: "5.99"
-    },
-    {
-        name: "3 month",
-        price: "12.99",
-        discount: "28% off"
-    },
-    {
-        name: "6 month",
-        price: "19.99",
-        discount: "44% off"
-    },
-    {
-        name: "1 year",
-        price: "33.99",
-        discount: "53% off"
-    },
-    {
-        name: "2 years",
-        price: "49.99",
-        discount: "65% off"
-    },
-    {
-        name: "lifetime",
-        price: "189.99"
-    },
-]
+export const projectImages = [
+    '/Assets/Images/portfolio.png',
+    '/Assets/Images/Bard.png',
+    '/Assets/Images/Bard-website.png',    
+    '/Assets/Images/crab.png',
+    '/Assets/Images/Octo-sheild.png',
+    '/Assets/Images/Octo-sheild (2).png',    
+    '/Assets/Images/VPN.png',
+    '/Assets/Images/global.png',
+    '/Assets/Images/pet.png',
+    '/Assets/Images/journey.png',
+    '/Assets/Images/event.png',
+    '/Assets/Images/Fashion.png',
+    
+];
