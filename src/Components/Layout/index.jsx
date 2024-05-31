@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
-
+import ScrollToTopButton from '../ScrollToTop'
 const Layout = ({ children, auth }) => {
     return (
         <div className='overflow-hidden'>
@@ -9,6 +9,7 @@ const Layout = ({ children, auth }) => {
             <div className='container'>
                 {children}
             </div>
+            <ScrollToTopButton />
             {!auth && <Footer />}
         </div>
     )
